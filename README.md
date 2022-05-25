@@ -45,6 +45,12 @@ Durante a observação, teve algumas visualização, como pode ser visto abaixo:
 
 ![image](https://user-images.githubusercontent.com/39843884/170153628-247eac22-a45a-4ddc-98fa-4d69084a75aa.png)
 
+3) Podemos ver pelos dois gráficos de dispersão que dá pra delimitar uma área onde dá pra classifcar, pode ser que técnicas como o svm tenha uma boa perfomace nesse dataset.
+
+![image](https://user-images.githubusercontent.com/39843884/170154808-e4832527-a208-4ea5-ad53-ce18aaddd136.png)
+
+![image](https://user-images.githubusercontent.com/39843884/170154931-1111083b-205b-43c2-8074-1763cb55c601.png)
+
 
 
 
