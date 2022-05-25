@@ -53,12 +53,44 @@ Durante a observação, teve algumas visualização, como pode ser visto abaixo:
 
 ![image](https://user-images.githubusercontent.com/39843884/170154931-1111083b-205b-43c2-8074-1763cb55c601.png)
 
-
-
-
 # Aplicando os algoritmos de ml sem otimização
 
-:construction: Em construção :construction:
+- [Link do Notebook](https://github.com/gustavoramos82/C-ncer-de-mama/blob/main/breast_sem_oti.ipynb)
+
+A partir dos materiais lidos, foi selecionados os seguintes algoritmos de classificação (todos os materiais constam nas referências):
+
+- Regressão logistica
+- KNN
+- SVM
+- Árvore de Decisão
+- Naive Bayes
+
+Aplicando o modelo no dataset e comparando os resultados, percebeu-se que o método de *undersampling* não teve uma melhora nos resultados, então será mostrado somente as metrica sem *undersampling*.
+
+Comparando as métrica, teve os seguintes resultados:
+
+- Svm
+  -  Acuracia: 0,973
+  -  Precisão: 0,968
+  -  Recall: 0,97
+- KNN
+  - Acuracia: 0,963
+  - Precisão: 0,961
+  - Recall: 0,954
+- Naive Bayes
+  - Acuracia: 0,931
+  - Precisão: 0,917
+  - Recall: 0,925
+- Árvore de Decisão:
+  - Acuracia: 0,905
+  - Precisão: 0,883
+  - Recall: 0,898
+- Regressão Logistica:
+  - Acuracia: 0,978
+  - Pecisão: 0,974
+  - Recall: 0,977
+ 
+ Podemo ver que a *regressão logistica* e o *svm* foi o que tiveram os melhores resultados, a que teve o pior resultado foi a *árvore de decisão*, e interessante que todas as métricas, sem nenhuma otimização já estão em torno de 0,9 (ou 90%). Agora será escolhido as três melhores e aplicar os métodos ensemble.
 
 # Aplicando ensemble
 
@@ -75,4 +107,13 @@ Durante a observação, teve algumas visualização, como pode ser visto abaixo:
 
 # Referências
 
-:construction: Em construção :construction:
+[1]- https://bmccancer.biomedcentral.com/track/pdf/10.1186/s12885-017-3877-1.pdf
+
+[2]- https://repositorio.ufmg.br/bitstream/1843/BUOS-8CTFHK/1/344m.pdf
+
+[3]- https://repositorio.ufu.br/bitstream/123456789/32251/1/Compara%C3%A7%C3%A3oAlgoritmosAprendizado.pdf
+
+[4]- https://arxiv.org/abs/1711.07831
+
+[5]- https://www.scielo.br/j/tema/a/yJSLsVLQmfYph8SThYCj8Xh/?format=pdf&lang=pt
+
