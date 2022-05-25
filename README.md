@@ -19,6 +19,8 @@ Temos como machine learning será usado como **ML**
 
 # Visualização e entendimento do dataset
 
+- [Link de acesso ao notebook](https://github.com/gustavoramos82/C-ncer-de-mama/blob/main/breast_visualizacao.ipynb)
+
 O dataset tem em torno de 30 colunas, mas essas são as principais, as outras são variações dessa segundo também consta no link no kaggle.
 
 ![imagem](https://i.ibb.co/KhsWcJ2/Pasted-image-20220522092609.png)
