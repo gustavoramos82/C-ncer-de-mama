@@ -93,6 +93,7 @@ Comparando as métrica, teve os seguintes resultados:
   - Acuracia: 0,978
   - Pecisão: 0,974
   - Recall: 0,977
+  - f1: 0,97
  
  Podemo ver que a *regressão logistica* e o *svm* foi o que tiveram os melhores resultados, a que teve o pior resultado foi a *árvore de decisão*, e interessante que todas as métricas, sem nenhuma otimização já estão em torno de 0,9 (ou 90%). Agora será escolhido as três melhores e aplicar os métodos ensemble.
 
