@@ -79,7 +79,7 @@ Comparando as métrica, teve os seguintes resultados:
   - Precisão: 0,974
   - Recall: 0,924
   - f1: 947
-  - Naive Bayes
+ - Naive Bayes
   - Acuracia: 0,931
   - Precisão: 0,906
   - Recall: 0,900
