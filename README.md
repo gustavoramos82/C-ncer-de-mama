@@ -71,20 +71,24 @@ Comparando as métrica, teve os seguintes resultados:
 
 - Svm
   -  Acuracia: 0,973
-  -  Precisão: 0,968
-  -  Recall: 0,97
+  -  Precisão: 0,966
+  -  Recall: 0,958
+  -  f1: 0,962
 - KNN
   - Acuracia: 0,963
-  - Precisão: 0,961
-  - Recall: 0,954
-- Naive Bayes
+  - Precisão: 0,974
+  - Recall: 0,924
+  - f1: 947
+  - Naive Bayes
   - Acuracia: 0,931
-  - Precisão: 0,917
-  - Recall: 0,925
+  - Precisão: 0,906
+  - Recall: 0,900
+  - f1:0,902
 - Árvore de Decisão:
-  - Acuracia: 0,905
-  - Precisão: 0,883
-  - Recall: 0,898
+  - Acuracia: 0,917
+  - Precisão: 0,858
+  - Recall: 0,911
+  - f1: 0,882
 - Regressão Logistica:
   - Acuracia: 0,978
   - Pecisão: 0,974
