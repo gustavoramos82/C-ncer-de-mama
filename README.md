@@ -95,11 +95,32 @@ Comparando as métrica, teve os seguintes resultados:
   - Recall: 0,977
   - f1: 0,97
  
- Podemo ver que a *regressão logistica* e o *svm* foi o que tiveram os melhores resultados, a que teve o pior resultado foi a *árvore de decisão*, e interessante que todas as métricas, sem nenhuma otimização já estão em torno de 0,9 (ou 90%). Agora será escolhido as três melhores e aplicar os métodos ensemble.
+ Podemos ver que a *regressão logistica* e o *svm* foi o que tiveram os melhores resultados, a que teve o pior resultado foi a *árvore de decisão*, e interessante que todas as métricas, sem nenhuma otimização já estão em torno de 0,9 (ou 90%). Agora será escolhido as três melhores e aplicar os métodos ensemble.
 
 # Aplicando ensemble
 
-:construction: Em construção :construction:
+- [Link do Notebook](https://github.com/gustavoramos82/C-ncer-de-mama/blob/main/breast_oti_ada.ipynb)
+
+Foi aplicado métodos ensemble como Voting Classifier, Bagging, Adaboost, Otimização dos Hiperparemtros e Random Forest, os melhores resultados foram:
+
+- Voting Classifier com knn, árvore de decisão e regressão logistica:
+  - Acuracia: 0,973
+  - Precisão: 0,981
+  - Recall: 0,945
+  - f1: 0,962
+
+- Bagging com Regressão Logistica:
+  - Acuracia: 0,982
+  - Precisão: 0,985
+  - Recall: 0,968
+  - f1: 0,976
+- Adaboost com regressão logistica com lerning rate igual a 0,2:
+  - Acuracia: 0,975
+  - Precisão: 0,963
+  - Recall: 0,967
+  - f1: 0,964
+ 
+ Podemos ver pelas métrica acima a no caso do Voting Classifier e do Bagging a acuracia e a precisão serem maiores que a regressão logistica sem otimização, podemos ver que o recall e o f1 são menores,, sendo que nesse contexto de saúde, o recall é uma métrica muito importante pra identifiac, logo o metdos ensemble aplicado não é melhor que a regressão logistica, considerando o recall.
 
 # Aplicando RFE
 
