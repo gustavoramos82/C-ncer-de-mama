@@ -1,7 +1,5 @@
 # Câncer de Mama
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
 Este projeto, a partir de um dataset câncer de mama, tem o intuito de senvolver algoritmos de machine learning, aplicar ensebles e verificar se é possivel manter a perfomace aplicando o RFE e o PCA.
 
 O dataset está disponivel no kaggle, nesse [link](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?select=data.csv)
@@ -122,14 +120,7 @@ Foi aplicado métodos ensemble como Voting Classifier, Bagging, Adaboost, Otimiz
  
  Podemos ver pelas métrica acima a no caso do Voting Classifier e do Bagging a acuracia e a precisão serem maiores que a regressão logistica sem otimização, podemos ver que o recall e o f1 são menores,, sendo que nesse contexto de saúde, o recall é uma métrica muito importante pra identifiac, logo o metdos ensemble aplicado não é melhor que a regressão logistica, considerando o recall.
 
-# Aplicando RFE
 
-:construction: Em construção :construction:
-
-# Aplicando PCA
-
-
-:construction: Em construção :construction:
 
 # Referências
 
