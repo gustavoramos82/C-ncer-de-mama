@@ -11,9 +11,6 @@ Temos como machine learning será usado como **ML**
 * [Visualização e entendimento do dataset](#visualização-e-entendimento-do-dataset)
 * [Aplicando os algoritmos de ml sem otimização](#aplicando-os-algoritmos-de-ml-sem-otimização)
 * [Aplicando ensemble](#aplicando-ensemble)
-* [Aplicando RFE](#aplicando-rfe)
-* [Aplicando PCA](#aplicando-pca)
-* [Referências](#referências)
 
 # Visualização e entendimento do dataset
 
