@@ -1,6 +1,6 @@
 # Câncer de Mama
 
-Este projeto, a partir de um dataset câncer de mama, tem o intuito de senvolver algoritmos de machine learning, aplicar ensebles e verificar se é possivel manter a perfomace aplicando o RFE e o PCA.
+Este projeto, a partir de um dataset câncer de mama, tem o intuito de senvolver algoritmos de machine learning.
 
 O dataset está disponivel no kaggle, nesse [link](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?select=data.csv)
 
